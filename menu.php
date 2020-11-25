@@ -18,7 +18,7 @@ try {
     echo "<script> alert ('New record created successfully');</script>";
   } catch(PDOException $e) {
     echo "<script> alert ('Already recorded');</script>";
-    echo "<script> window.location.replace('menu.html');</script>";
+    echo "<script> window.location.replace('menu.html')</script>";
   }
   
   $conn = null;
